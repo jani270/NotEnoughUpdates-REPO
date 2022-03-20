@@ -28,9 +28,10 @@
   "internalname": "GOBLIN_OMELETTE_SUNNY_SIDE",
   "crafttext": "",
   "clickcommand": "",
-  "modver": "2.0.0-REL",
+  "modver": "2.1.0-REL",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Sunny_Side_Goblin_Omelette"
+    "https://hypixel-skyblock.fandom.com/wiki/Sunny_Side_Goblin_Omelette",
+    "https://wiki.hypixel.net/Sunny_Side_Goblin_Omelette"
   ]
 }
