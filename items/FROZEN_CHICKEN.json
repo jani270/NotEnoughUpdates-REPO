@@ -17,5 +17,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Frozen_Chicken",
     "https://wiki.hypixel.net/Frozen_Chicken"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:8",
+    "result": "FROZEN_CHICKEN"
+    }
   ]
 }

@@ -25,5 +25,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tactician's_Sword",
     "https://wiki.hypixel.net/Tactician's_Sword"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:9",
+    "result": "TACTICIAN_SWORD"
+    }
   ]
 }

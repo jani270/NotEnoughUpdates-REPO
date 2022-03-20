@@ -24,5 +24,12 @@
     "https://hypixel-skyblock.fandom.com/wiki/Rogue_Sword",
     "https://wiki.hypixel.net/Rogue_Sword"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:120",
+    "result": "ROGUE_SWORD"
+    }
+  ]
 }

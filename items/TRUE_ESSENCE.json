@@ -14,5 +14,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/True_Essence",
     "https://wiki.hypixel.net/True_Essence"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:5",
+    "result": "TRUE_ESSENCE"
+    }
   ]
 }

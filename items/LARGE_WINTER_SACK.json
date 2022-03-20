@@ -28,5 +28,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Winter_Sack",
     "https://wiki.hypixel.net/Winter_Sack"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:6",
+    "result": "WINTER_SACK"
+    }
   ]
 }

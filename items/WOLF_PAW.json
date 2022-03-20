@@ -16,5 +16,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wolf_Paw",
     "https://wiki.hypixel.net/Wolf_Paw"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:100",
+    "result": "WOLF_PAW"
+    }
   ]
 }

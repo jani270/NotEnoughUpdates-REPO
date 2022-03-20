@@ -869,6 +869,96 @@
     ],
     "BINGO_TALISMAN": [
       "BINGO_RING"
+    ],
+    "PARTY_HAT_CRAB_YELLOW": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_RED": [
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_PURPLE": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_PINK": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_ORANGE": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_LIME": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_GREEN": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_BLACK": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_YELLOW",
+      "PARTY_HAT_CRAB_AQUA"
+    ],
+    "PARTY_HAT_CRAB_AQUA": [
+      "PARTY_HAT_CRAB_RED",
+      "PARTY_HAT_CRAB_PURPLE",
+      "PARTY_HAT_CRAB_PINK",
+      "PARTY_HAT_CRAB_ORANGE",
+      "PARTY_HAT_CRAB_LIME",
+      "PARTY_HAT_CRAB_GREEN",
+      "PARTY_HAT_CRAB_BLACK",
+      "PARTY_HAT_CRAB_YELLOW"
     ]
   },
   "special_bois": [
@@ -1191,6 +1281,8 @@
       "§f - §aTymanWasTaken§7: Item-repo Contributor",
       "§f - §aapotato321§7: Item-repo Contributor",
       "§f - §aSome1sm§7: Item-repo Contributor",
+      "§f - §aErymanthus§7: Asset Contributor",
+      "§f - §anea89§7: Feature Contributor",
       "",
       "§b§lDiscord Staff:",
       "§f - §bIRONM00N#0001§7: §cAdmin",

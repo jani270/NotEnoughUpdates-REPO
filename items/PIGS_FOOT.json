@@ -19,5 +19,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pig's_Foot",
     "https://wiki.hypixel.net/Pig's_Foot"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:100",
+    "result": "PIGS_FOOT"
+    }
   ]
 }

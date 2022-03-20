@@ -25,5 +25,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Potato_Talisman",
     "https://wiki.hypixel.net/Potato_Talisman"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:200",
+    "result": "POTATO_TALISMAN"
+    }
   ]
 }

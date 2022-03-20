@@ -18,5 +18,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hunter_Knife",
     "https://wiki.hypixel.net/Hunter_Knife"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:10",
+    "result": "HUNTER_KNIFE"
+    }
   ]
 }

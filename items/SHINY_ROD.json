@@ -32,5 +32,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shiny_Rod",
     "https://wiki.hypixel.net/Shiny_Rod"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:200",
+    "result": "SHINY_ROD"
+    }
   ]
 }

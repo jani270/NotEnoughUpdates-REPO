@@ -17,5 +17,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Talisman",
     "https://wiki.hypixel.net/Skeleton_Talisman"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:10",
+    "result": "SKELETON_TALISMAN"
+    }
   ]
 }

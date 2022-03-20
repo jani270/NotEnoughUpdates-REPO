@@ -22,5 +22,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dante_Talisman",
     "https://wiki.hypixel.net/Dante_Talisman"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:35",
+    "result": "DANTE_TALISMAN"
+    }
   ]
 }

@@ -17,5 +17,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cat_Talisman",
     "https://wiki.hypixel.net/Cat_Talisman"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:100",
+    "result": "CAT_TALISMAN"
+    }
   ]
 }

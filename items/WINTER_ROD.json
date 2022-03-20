@@ -24,5 +24,12 @@
     "https://hypixel-skyblock.fandom.com/wiki/Winter_Rod",
     "https://wiki.hypixel.net/Winter_Rod"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:5",
+    "result": "WINTER_ROD"
+    }
+  ]
 }

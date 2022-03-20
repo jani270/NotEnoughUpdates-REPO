@@ -20,5 +20,12 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enderman_Mask",
     "https://wiki.hypixel.net/Enderman_Mask"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:12",
+    "result": "ENDERMAN_MASK"
+    }
+  ]
 }

@@ -30,5 +30,12 @@
     "https://hypixel-skyblock.fandom.com/wiki/Turtle_Pet",
     "https://wiki.hypixel.net/Turtle_Pet"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "ENCHANTED_EMERALD:312",
+    "result": "TURTLE;3"
+    }
+  ]
 }

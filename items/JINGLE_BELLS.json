@@ -21,5 +21,12 @@
     "https://hypixel-skyblock.fandom.com/wiki/Jingle_Bells",
     "https://wiki.hypixel.net/Jingle_Bells"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:75",
+    "result": "JINGLE_BELLS"
+    }
+  ]
 }

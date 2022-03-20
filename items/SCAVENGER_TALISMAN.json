@@ -16,5 +16,12 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scavenger_Talisman",
     "https://wiki.hypixel.net/Scavenger_Talisman"
+  ],
+  "recipes": [
+    {
+    "type": "trade",
+    "cost": "EMERALD:100",
+    "result": "SCAVENGER_TALISMAN"
+    }
   ]
 }
