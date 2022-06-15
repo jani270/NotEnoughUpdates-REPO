@@ -1,10 +1,12 @@
 {
-  "entity": "Player",
+  "entity": "ArmorStand",
   "modifiers": [
     {
-      "type": "playerdata",
-      "skin": "neurepo:mobs/exe.png",
-      "parts": true
+      "type": "invisible"
+    },
+    {
+      "type": "equipment",
+      "helmet": "EXE"
     }
   ]
 }
