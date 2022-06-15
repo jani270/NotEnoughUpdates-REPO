@@ -3,8 +3,8 @@
   "modifiers": [
     {
       "type": "riding",
-      "entity": "Blaze"
-      ]
+      "entity": "Blaze",
+      "customname": "Dinnerbone"
     }
   ]
 }
