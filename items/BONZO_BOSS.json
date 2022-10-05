@@ -32,16 +32,12 @@
         {
           "id": "BONZO_MASK",
           "chance": "3%",
-          "extra": [
-            "§e§lChest Price: §61,250,000 coins"
-          ]
+          "extra": ["§e§lChest Price: §61,250,000 coins"]
         },
         {
           "id": "BONZO_STAFF",
           "chance": "1%",
-          "extra": [
-            "§e§lChest Price: §62,250,000 coins"
-          ]
+          "extra": ["§e§lChest Price: §62,250,000 coins"]
         },
         {
           "id": "RED_NOSE",

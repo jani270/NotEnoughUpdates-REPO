@@ -33,16 +33,12 @@
         {
           "id": "RED_SCARF",
           "chance": "1.69%",
-          "extra": [
-            "§e§lChest Price: §6500,000 coins"
-          ]
+          "extra": ["§e§lChest Price: §6500,000 coins"]
         },
         {
           "id": "SCARF_STUDIES",
           "chance": "11.21%",
-          "extra": [
-            "§e§lChest Price: §6500,000 coins"
-          ]
+          "extra": ["§e§lChest Price: §6500,000 coins"]
         },
         {
           "id": "STONE_BLADE",
