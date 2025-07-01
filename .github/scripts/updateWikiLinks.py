@@ -120,7 +120,6 @@ def processItemFile(filename: str):
 
         for link in existingInfo:
             if (link.startswith(fandomLink) or link.startswith(officialLink)) and not DEBUG_MODE:
-                print(f"Skipping {filename} (contains a link)")
                 return
 
         print(f"Processing {filename}...")
