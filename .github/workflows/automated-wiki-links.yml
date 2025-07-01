@@ -4,7 +4,6 @@ on:
   push:
     push:
     branches: [master]
-  workflow_dispatch:
 
 jobs:
   update-data:
@@ -46,5 +45,5 @@ jobs:
           branch: bot/automated-updates
           base: master
           title: "Automated Updates"
-          body: "This pull request contains the latest data from the Hypixel API."
+          body: "This pull request contains the latest data from the Hypixel Wiki and Fandom Wiki"
           labels: "automated update"

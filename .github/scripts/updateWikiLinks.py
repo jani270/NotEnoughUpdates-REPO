@@ -13,8 +13,6 @@ httpPool = urllib3.PoolManager()
 attemptedLinks = {}
 modifiedCount = 0
 badModifiedCount = 0
-proposedChanges = {}
-loadedProposedChanges = {}
 
 suffixesToRemove = [
     "(Monster)", "(NPC)", "(Boss)", "(Miniboss)", "(Sea Creature)", "(Animal)",
@@ -25,9 +23,6 @@ linkTransformationFandom = {
     "Barn_Skin": fandomLink + "Barn_Skins",
     "_Rune": fandomLink + "Runes"
 }
-
-DEBUG_MODE = False
-
 
 def getItemFiles() -> list[str]:
     itemFiles = [f for f in os.listdir(itemsDirectory
@@ -45,7 +40,7 @@ def _replace_title_case_prepositions(name: str) -> str:
 
 
 def _update_special_case_links(filename: str, jsonData: dict, file, desired_links: list[str]) -> bool:
-    global modifiedCount, proposedChanges
+    global modifiedCount
 
     file_modified = False
     if jsonData.get("infoType") != wikiUrlInfoType:
@@ -57,10 +52,6 @@ def _update_special_case_links(filename: str, jsonData: dict, file, desired_link
 
     if file_modified:
         modifiedCount += 1
-        proposedChanges[filename] = {
-            "current": jsonData.get("info", []),
-            "proposed": desired_links
-        }
         file.seek(0)
         file.truncate()
         file.write(
@@ -73,9 +64,6 @@ def _update_special_case_links(filename: str, jsonData: dict, file, desired_link
 
 def processItemFile(filename: str):
     global modifiedCount, badModifiedCount
-
-    if not DEBUG_MODE and len(loadedProposedChanges) > 0 and filename not in loadedProposedChanges:
-        return
 
     filePath = os.path.join(itemsDirectory
 , filename)
@@ -119,7 +107,7 @@ def processItemFile(filename: str):
                 return
 
         for link in existingInfo:
-            if (link.startswith(fandomLink) or link.startswith(officialLink)) and not DEBUG_MODE:
+            if (link.startswith(fandomLink) or link.startswith(officialLink)):
                 return
 
         print(f"Processing {filename}...")
@@ -173,7 +161,7 @@ def processItemFile(filename: str):
                 if fixed:
                     pass
 
-        if (len(infoLinks_auto) < len(existingInfo)) and not DEBUG_MODE:
+        if (len(infoLinks_auto) < len(existingInfo)):
             return
 
         if infoLinks_auto != existingInfo:
@@ -187,11 +175,6 @@ def processItemFile(filename: str):
 
         if fileModified:
             modifiedCount += 1
-            proposedChanges[filename] = {
-                "current": existingInfo,
-                "proposed": infoLinks_auto
-            }
-
             file.seek(0)
             file.truncate()
             file.write(
@@ -290,8 +273,3 @@ if __name__ == '__main__':
 
     print(f"Total files modified: {modifiedCount}")
     print(f"Total bad modifications (skipped due to existing links): {badModifiedCount}")
-
-    if proposedChanges:
-        with open("proposedChanges.json", "w", encoding='utf-8') as f:
-            json.dump(proposedChanges, f, indent=2, ensure_ascii=False)
-        print("Saved proposed changes to proposedChanges.json")
