@@ -4660,54 +4660,6 @@
     }
   },
   "SHEEP": {
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.2,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 0.2,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          20,
-          10,
-          10
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 20.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.1,
-          10.0
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 0.2,
-          "INTELLIGENCE": 1.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          10,
-          10
-        ],
-        "statNums": {
-          "ABILITY_DAMAGE": 20.0,
-          "INTELLIGENCE": 100.0
-        }
-      }
-    },
     "COMMON": {
       "1": {
         "otherNums": [
@@ -4748,12 +4700,55 @@
         }
       }
     },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.1,
+          0.1
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 0.2,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          15,
+          7.5
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 20.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.2,
+          0.1
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 0.2,
+          "INTELLIGENCE": 1.0
+        }
+      },
+      "100": {
+        "otherNums": [
+          20,
+          10
+        ],
+        "statNums": {
+          "ABILITY_DAMAGE": 20.0,
+          "INTELLIGENCE": 100.0
+        }
+      }
+    },
     "LEGENDARY": {
       "1": {
         "otherNums": [
           0.2,
           0.1,
-          10.0,
           0.2
         ],
         "statNums": {
@@ -4764,7 +4759,6 @@
       "100": {
         "otherNums": [
           20,
-          10,
           10,
           25
         ],
